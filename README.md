@@ -26,4 +26,4 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the GNU AFFERO GENERAL PUBLIC License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE.txt` for more information.
