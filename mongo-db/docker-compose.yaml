@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  mongo_clean:
+    container_name: mongo_clean
+    image: mongo
+    restart: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${DB_USER}
+      - MONGO_INITDB_ROOT_PASSWORD=${DB_PASS}
+    expose:
+      - "27017"
+    ports:
+      - "27017:27017"
