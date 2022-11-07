@@ -4,6 +4,13 @@ I have put together some examples of docker compose files for different services
 
 You can find each file inside the folders specified by its name
 
+## Notes
+
+- The files are not intended to be used in production, they are just examples of how to use docker compose to run a service
+- I'm not a docker expert, so if you find any error or have any suggestion, please let me know and I'll fix it as soon as possible
+- I'm assuming you have docker and docker-compose installed in your machine and that you know how to use them (if not, please check the official documentation)
+- If you want to contribute, see the section below
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
