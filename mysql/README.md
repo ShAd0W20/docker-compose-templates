@@ -18,7 +18,7 @@ DB_PORT=
 To run the docker compose file, you need to run the following command:
 
 ```bash
-docker-compose --env-file .env.local up -d
+docker-compose --env-file .env.local -f docker-compose.yml up -d
 ```
 
 ## Notes
