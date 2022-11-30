@@ -2,7 +2,7 @@
 
 ## Setup
 
-First of all copy the provided `docker-compose.yml` to the root of your project.
+First of all copy the provided `docker-compose.yaml` to the root of your project.
 
 Then create a `.env.local` file in the root of your project and add the following environment variables:
 
@@ -17,7 +17,7 @@ POSTGRES_PASSWORD=
 To run the docker compose file, you need to run the following command:
 
 ```bash
-docker-compose --env-file .env.local up -d
+docker-compose --env-file .env.local -f docker-compose.yaml up -d
 ```
 
 ## Notes
