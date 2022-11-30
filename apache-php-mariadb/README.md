@@ -9,5 +9,5 @@ I'm assuming that your php files are in a folder named `app` you can change this
 Copy the `docker-compose.yaml` file to your project and run the following command:
 
 ```bash
-docker-compose up -d
+docker-compose -f docker-compose.yaml up -d
 ```
