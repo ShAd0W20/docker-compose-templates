@@ -2,7 +2,7 @@
 
 ## Setup
 
-Copy the docker-compose.yml and the Dockerfile to the root of your project.
+Copy the docker-compose.yaml and the Dockerfile to the root of your project.
 
 Install nodemon in order to restart the server when you make changes to the code:
 
@@ -30,5 +30,5 @@ Make sure to add this command to your package.json file under the scripts sectio
 To run the docker compose file, you need to run the following command:
 
 ```bash
-docker-compose --env-file .env.local up -d
+docker-compose --env-file .env.local -f docker-compose.yaml up -d
 ```
