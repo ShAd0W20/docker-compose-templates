@@ -33,7 +33,7 @@ In case you are using JWT authentication, you need to add the following environm
 AUTH_KEY=
 ```
 
-And in the docker-compose.yml file, you need to add the following environment variables in the web service under the environment section:
+And in the docker-compose.yaml file, you need to add the following environment variables in the web service under the environment section:
 
 ```yml
 AUTH_KEY: ${AUTH_KEY}
@@ -50,7 +50,7 @@ Make sure to add this command to your package.json file under the scripts sectio
 To run the docker compose file, you need to run the following command:
 
 ```bash
-docker-compose --env-file .env.local up -d
+docker-compose --env-file .env.local -f docker-compose.yaml up -d
 ```
 
 ## Notes
